@@ -1,0 +1,146 @@
+{
+  "project_name": "Nexus Campus",
+  "tagline": "Your Campus Is Bigger Than Your Campus",
+  "design_archetype": "Electric Indigo & Modern Slate (High-energy, crisp typography, youthful professional hybrid aesthetic)",
+  "theme": {
+    "mode_default": "dark",
+    "theme_toggle_supported": true,
+    "color_palette": {
+      "primary": {
+        "electric_indigo": "#6366F1",
+        "indigo_hover": "#4F46E5",
+        "indigo_glow": "rgba(99, 102, 241, 0.35)",
+        "indigo_light": "#818CF8"
+      },
+      "secondary": {
+        "cyan_vibe": "#38BDF8",
+        "emerald_verified": "#10B981",
+        "amber_reputation": "#F59E0B",
+        "rose_alert": "#F43F5E"
+      },
+      "surfaces_dark": {
+        "bg_root": "#080B11",
+        "bg_surface_1": "#0F1623",
+        "bg_surface_2": "#172033",
+        "bg_glass": "rgba(15, 22, 35, 0.75)",
+        "border_subtle": "rgba(255, 255, 255, 0.08)",
+        "border_active": "rgba(99, 102, 241, 0.5)"
+      },
+      "text": {
+        "primary": "#F8FAFC",
+        "secondary": "#94A3B8",
+        "muted": "#64748B",
+        "highlight": "#38BDF8"
+      }
+    }
+  },
+  "typography": {
+    "font_family_heading": "Plus Jakarta Sans, Clash Display, sans-serif",
+    "font_family_body": "Inter, system-ui, sans-serif",
+    "font_family_mono": "JetBrains Mono, monospace",
+    "hierarchy": {
+      "hero_heading": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight",
+      "section_heading": "text-2xl sm:text-3xl font-bold tracking-tight",
+      "card_title": "text-lg sm:text-xl font-semibold",
+      "body_text": "text-sm sm:text-base text-slate-300 leading-relaxed",
+      "label_text": "text-xs font-semibold uppercase tracking-wider text-indigo-400"
+    }
+  },
+  "layout_and_structure": {
+    "desktop_shell": "3-column responsive grid (Sidebar Navigation + Main Content Feed/Hub + Contextual Right Panel)",
+    "mobile_shell": "Sticky glass header + scrollable body + Fixed Bottom Navigation Bar (5 core tabs)",
+    "bento_grid_specs": {
+      "gap": "gap-4 sm:gap-6",
+      "hero_bento_item": "col-span-12 md:col-span-8 row-span-2",
+      "stat_bento_item": "col-span-6 md:col-span-4",
+      "feed_card_padding": "p-5 sm:p-6"
+    }
+  },
+  "key_features_visual_design": {
+    "landing_page": "High-impact Hero section with mesh glow gradient, video discovery teaser, live stats ticker, student testaments grid, and interactive CTA.",
+    "student_feed": "Infinite scroll cards, story ribbon at top, post creation widget with media attachments/polls, like/comment/share/bookmark counters, filter pill tabs.",
+    "stories": "Instagram/Snapchat style 24h stories top bar with avatar aura glows, fullscreen modal viewer with progress bars, reactions, and viewer list.",
+    "student_discovery": "Search header with filters (College, Major, Graduation Year, Skills, Open for Collaboration), grid of student profiles with reputation badges & endorsement stats.",
+    "meet_someone_random_video": "Split screen or PIP video view, interactive interest chips selection, instant 'Skip / Next' match button, WebRTC stream indicator, and solo test interactive partner bot simulator.",
+    "webrtc_video_calling": "Floating or full-screen call room with local/remote video grids, mic/camera/screen-share controls, in-call overlay chat drawer, signal state badge.",
+    "realtime_messaging": "Split view chat hub, recent chats list with unread badges & online status dot, active message window with typing indicators, media preview.",
+    "project_collaboration": "Project cards with needed roles, skill tags, team rosters, applicant tracking modal, apply modal with AI bio match suggestion.",
+    "meeting_scheduler": "Calendly-style availability selector, interactive slot booking modal, scheduled meetings list with Google Calendar/ICS export simulation.",
+    "college_communities": "Hub page for Stanford, MIT, Oxford, LPU, Berkeley with student rosters, community posts, follower counts, and event announcements.",
+    "reputation_system": "Peer endorsement breakdown (Technical Skill, Leadership, Collaboration, Reliability), overall score radial meter, endorse modal.",
+    "admin_dashboard": "Metrics cards (Active users, matches made, reports pending), moderation table with action buttons (Warn, Suspend, Ban), system analytics charts."
+  },
+  "image_urls": {
+    "students": [
+      {
+        "url": "https://images.unsplash.com/photo-1758270705290-62b6294dd044?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "category": "group_students_collaboration",
+        "alt": "Diverse university students collaborating around a laptop"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1664843917218-71f7b6bb3afc?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "category": "student_avatar_male",
+        "alt": "Smiling male computer science student"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1725473823311-122c1c86966b?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "category": "student_avatar_female",
+        "alt": "Female design student smiling on campus"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1760351561007-526f5353cc76?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "category": "students_studying",
+        "alt": "Two female students working together"
+      }
+    ],
+    "campuses": [
+      {
+        "url": "https://images.unsplash.com/photo-1583373834259-46cc92173cb7?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "category": "campus_stanford",
+        "alt": "Stanford Quad & Historic Campus Green"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1592930954854-7d00c87d0cf4?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "category": "campus_mit",
+        "alt": "MIT Academic Building Architecture"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1622470190232-81df3782484b?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "category": "campus_berkeley",
+        "alt": "UC Berkeley Campus Lawn"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1592280771190-3e2e4d571952?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "category": "campus_lpu_oxford",
+        "alt": "Modern Innovation & Technology Hall"
+      }
+    ]
+  },
+  "testing_and_accessibility": {
+    "data_testid_requirement": "MANDATORY. Every interactive element (buttons, tabs, inputs, cards, dropdowns, modal triggers, video control icons) must have a semantic kebab-case data-testid attribute.",
+    "example_testids": [
+      "nav-landing-cta",
+      "feed-post-submit-btn",
+      "story-avatar-item-1",
+      "meet-someone-start-btn",
+      "meet-someone-skip-btn",
+      "webrtc-toggle-mic-btn",
+      "webrtc-toggle-cam-btn",
+      "webrtc-screenshare-btn",
+      "project-apply-btn-1",
+      "meeting-slot-select-time-1400",
+      "admin-moderation-tab",
+      "ai-bio-enhance-btn"
+    ],
+    "contrast_standards": "Text contrast must satisfy WCAG AA (minimum 4.5:1 for normal text). Dark backgrounds (#080B11, #0F1623) paired with bright slate/white text (#F8FAFC, #94A3B8) and electric indigo highlights.",
+    "focus_states": "ring-2 ring-indigo-500 ring-offset-2 ring-offset-slate-900 focus:outline-none"
+  },
+  "instructions_to_main_agent": [
+    "Ensure all features mentioned in key_functionalities are completely built and functional with backend API integration and seed data.",
+    "Implement WebRTC peer connection logic with automatic simulated mock video partner bot when testing solo or when peer signaling is pending.",
+    "Include the AI-assisted Project Match & Bio Enhancer button in the profile edit modal and project join application modal.",
+    "Make sure every tab/page loads cleanly without horizontal scroll glitches, with responsive bottom nav for mobile screens.",
+    "Use Lucide icons consistently across the application.",
+    "Deliver rich seed data containing 8+ students across Stanford, MIT, Oxford, LPU, Berkeley with realistic stories, projects, posts, comments, and booking slots."
+  ]
+}
