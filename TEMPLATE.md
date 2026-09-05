@@ -41,7 +41,7 @@ filename and `quality` is JPEG-only; `page.goto` needs an absolute
 - **Frontend charts**: `recharts` (with `react-is` pinned to the React 19 line).
 - **Backend** (`backend/requirements.txt`): `fastapi`, `uvicorn`, `motor`,
   `pymongo`, `pydantic` v2, `python-dotenv`, `httpx`, `requests`, `pandas`,
-  `numpy`, `emergentintegrations`, `boto3`, `typer`, `pytest` +
+  `numpy`, `boto3`, `typer`, `pytest` +
   `pytest-asyncio`/`xdist`; auth and uploads are covered too — `pyjwt`,
   `python-jose`, `passlib`, `cryptography`, `email-validator`,
   `python-multipart`.

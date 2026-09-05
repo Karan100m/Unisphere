@@ -17,7 +17,7 @@ Unisphere is a student-centric platform combining **LinkedIn-style professional 
 - **Reputation & Peer Endorsement**: Multi-dimensional rating system (Communication, Teamwork, Reliability, Professionalism, Technical Contribution) with anti-spam safeguards and testimonials.
 - **Safety, Moderation & Admin Dashboard**: Reporting engine, user blocking/unblocking, Admin metrics cards, platform analytics charts, moderation queue, user suspension/unsuspension, and post deletion.
 - **Global Search**: Instant multi-entity search spanning Students, Colleges, Projects, and Feed Posts.
-- **AI-Assisted Features**: Bio Enhancer, Project Match Calculator & Tailored Pitch Generator, and "Meet Someone" Icebreaker Generator via `emergentintegrations` (with Universal Key).
+
 
 ## 3. Data Entities
 - `users`: User profiles, student details, hashed passwords, reputation stats, privacy settings.

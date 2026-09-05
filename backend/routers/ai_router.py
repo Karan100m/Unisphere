@@ -1,4 +1,4 @@
-"""AI-Powered Smart Features Router using emergentintegrations & EMERGENT_LLM_KEY."""
+"""AI-Powered Smart Features Router using EMERGENT_LLM_KEY."""
 
 import os
 import json
@@ -18,13 +18,6 @@ from models.schemas import (
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/ai", tags=["ai"])
 
-# Safely import emergentintegrations if available
-try:
-    from emergentintegrations.llm.chat import LlmChat, UserMessage
-    EMERGENT_AVAILABLE = True
-except Exception as e:
-    logger.warning("emergentintegrations could not be imported: %s", e)
-    EMERGENT_AVAILABLE = False
 
 
 @router.post("/enhance-bio", response_model=BioEnhanceResponse)

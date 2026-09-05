@@ -211,7 +211,7 @@ content(
         "THEME   = 'violet #8B5CF6 + amber #FBBF24'",
         "WEBRTC  = 'real RTCPeerConnection'",
         "SEED    = 'rich: 6 users, 22 collections'",
-        "AI      = 'emergentintegrations, universal key'",
+        "AI      = 'universal key'",
     ],
 )
 
